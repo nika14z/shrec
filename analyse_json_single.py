@@ -1,5 +1,6 @@
 import json
 
+### Define a list of scores we are interested in extracting
 scores_of_interest = ['ics', 'ips', 'lddt', 'tm_score', 'dockq']
 
 with open('out.json') as json_file:
